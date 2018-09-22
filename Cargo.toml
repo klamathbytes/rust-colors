@@ -1,0 +1,11 @@
+[package]
+name = "rust-colors"
+version = "0.1.0"
+authors = ["Thomas Klemz <tjklemz@gmail.com>"]
+
+[dependencies]
+image = "*"
+
+[[bin]]
+name = "rust-colors"
+path = "main.rs"
